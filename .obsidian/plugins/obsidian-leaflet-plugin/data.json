@@ -1,0 +1,259 @@
+{
+  "mapMarkers": [
+    {
+      "id": "large-map",
+      "lastAccessed": 1710817295199,
+      "markers": [
+        {
+          "id": "ID_d9d8a81aeb99",
+          "type": "default",
+          "loc": [
+            -0.970703125,
+            1.1015625
+          ],
+          "link": "Map (Phandalin)",
+          "layer": ".%2Fphandalin_map.png",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.564,
+            0.7069701280227596
+          ],
+          "description": "Phandalin Town",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_59887b7be9ca",
+          "type": "default",
+          "loc": [
+            -0.88616943359375,
+            1.4306640625
+          ],
+          "link": "Map (Wave Echo Cave)",
+          "layer": ".%2Fphandalin_map.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Wave Echo Cave",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_a85a3a7b0af9",
+          "type": "default",
+          "loc": [
+            -0.00726318359375,
+            0.9169921875
+          ],
+          "layer": ".%2Fphandalin_map.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Thundertree",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_db0b9a287938",
+          "type": "default",
+          "loc": [
+            -0.2109375,
+            1.609375
+          ],
+          "layer": ".%2Fphandalin_map.png",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.824,
+            0.15362731152204837
+          ],
+          "description": "Agatha's Lair",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_59fa09da89ab",
+          "type": "default",
+          "loc": [
+            -0.552459716796875,
+            1.89208984375
+          ],
+          "layer": ".%2Fphandalin_map.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Wyvern Tor",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_5be879cbdb1a",
+          "type": "default",
+          "loc": [
+            -0.8984375,
+            0.90625
+          ],
+          "layer": ".%2Fphandalin_map.png",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.464,
+            0.6543385490753911
+          ],
+          "description": "Cragmaw Hideout",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d97b0828a9c9",
+          "type": "default",
+          "loc": [
+            -0.439178466796875,
+            1.05810546875
+          ],
+          "layer": ".%2Fphandalin_map.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Cragmaw Keep",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Diary/Map (Large).md"
+      ]
+    },
+    {
+      "id": "leaflet-map",
+      "lastAccessed": 1710898029491,
+      "markers": [
+        {
+          "id": "ID_4a492b9ae8fa",
+          "type": "default",
+          "loc": [
+            -0.9765625,
+            1.1015625
+          ],
+          "link": "Map (Phandalin)",
+          "layer": ".%2Fphandalin_map.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Phandalin Town Map",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fb48685a6b98",
+          "type": "default",
+          "loc": [
+            -0.86273193359375,
+            1.4365234375
+          ],
+          "link": "Map (Wave Echo Cave)",
+          "layer": ".%2Fphandalin_map.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Wave Echo Cave Map",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "z_Templates/Insert Map (Leaflet).md",
+        "Diary/Map (Phandalin).md",
+        "Diary/Map (Wave Echo Cave).md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#dddddd",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": false,
+  "layerMarkers": true,
+  "previousVersion": "6.0.2",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 2
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {
+    "darkMode": "truemarker",
+    "defaultZoom": "5",
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "500px",
+    "image": "./phandalin_map.png",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "./phandalin_map.png"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [],
+    "maxZoom": "10",
+    "minZoom": "1",
+    "osmLayer": true,
+    "overlay": [],
+    "overlayColor": "blue",
+    "scale": "1",
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 1,
+    "zoomFeatures": false,
+    "id": "leaflet-map",
+    "lat": "50",
+    "long": "50",
+    "unit": "meters",
+    "filterTag": []
+  },
+  "enableDraw": true,
+  "defaultUnitType": "imperial",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+  "defaultTileSubdomains": "a,b,c,d"
+}
