@@ -1,0 +1,48 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": false,
+  "preferredDateFormat": "YYYY-MM-DD",
+  "useUsDateInputOrder": false,
+  "firstWeekday": {
+    "index": 1,
+    "name": "Monday",
+    "shortName": "Mo"
+  },
+  "syncInterval": 200,
+  "minSyncInterval": 50,
+  "maxSyncInterval": 1000,
+  "enableJs": true,
+  "viewFieldDisplayNullAsEmpty": false,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [],
+  "buttonTemplates": [
+    {
+      "label": "Change scene",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "_scene",
+      "style": "default",
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "next_scene",
+          "evaluate": false,
+          "value": "_scene"
+        },
+        {
+          "type": "sleep",
+          "ms": 200
+        },
+        {
+          "type": "js",
+          "file": "z_js/obs-button.js"
+        }
+      ]
+    }
+  ],
+  "excludedFolders": [
+    "templates"
+  ]
+}

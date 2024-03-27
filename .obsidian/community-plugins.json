@@ -5,5 +5,8 @@
   "obsidian-5e-statblocks",
   "obsidian-dice-roller",
   "supercharged-links-obsidian",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "sample-plugin",
+  "obsidian-meta-bind-plugin",
+  "js-engine"
 ]

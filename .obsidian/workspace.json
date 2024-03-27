@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "137453a18aa6cee2",
+        "id": "e298736f171e602a",
         "type": "tabs",
         "children": [
           {
-            "id": "4a8fa3b5384fe8b1",
+            "id": "dee25b0c915da0a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "94ffac6450c70555",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "examples.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a36c59b8dc4b5e3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tips'n'Tricks.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -80,7 +105,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "770512f14d76c836",
+            "id": "0302799aa588496d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6d04aa3b215fac38",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -97,30 +133,19 @@
             }
           },
           {
-            "id": "aaaa03a45e35c7d6",
+            "id": "e54dadae9faf27f1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
                 "file": "Tips'n'Tricks.md",
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0302799aa588496d",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "73801ae40759c68a",
+            "id": "50bf10cfae565900",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -130,7 +155,7 @@
             }
           },
           {
-            "id": "4a2ab59b92cc1007",
+            "id": "18053362cc44351d",
             "type": "leaf",
             "state": {
               "type": "initiative-tracker-view",
@@ -138,19 +163,18 @@
             }
           },
           {
-            "id": "75c7c641b147e4bf",
+            "id": "29831f8b57fcad26",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 479.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,47 +189,53 @@
       "initiative-tracker:Initiative Tracker Encounter Builder": false
     }
   },
-  "active": "4a8fa3b5384fe8b1",
+  "active": "8089b52592d52975",
   "lastOpenFiles": [
-    "2024-03-19.md",
-    "Tips'n'Tricks.md",
     "1710703930271 - Combat.md",
+    "z_js/obs-button.js",
+    "examples.md",
+    "z_Templates/Insert OBS Scene Button.md",
+    "islove22.md",
+    "Sessions/Session 11.md",
+    "islove.md",
+    "z_js/obs-ws.min.js",
+    "z_js",
+    "testJsFile.js",
+    "Tips'n'Tricks.md",
+    "canvas test.canvas",
+    "islove2.md",
+    "testJsFile 1.js",
+    "testJsFile 4.js",
+    "testJsFile.js.md",
+    "testJsFile 3.js",
+    "testJsFile 2.js",
+    "Diary/Places and Distances.md",
+    "Development Note.md",
+    "DevNote2.md",
+    "Diary/LMOP Permanent.md",
+    "Sessions/Session 12.md",
+    "parens-last.md",
+    "2024-03-19.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Diary/LMOP Permanent.md",
     "Monsters/sprite.md",
     "Diary/Map (Phandalin).md",
     "Diary/Map (Wave Echo Cave).md",
-    "Diary/Places and Distances.md",
     "Diary/Map (Large).md",
     "z_Templates/Insert Map (Leaflet).md",
     "Characters/Redwing.md",
     "Characters/Beldroth.md",
-    "canvas test.canvas",
     "Diary/Daily Log.md",
     "Assets/wave_echo_cave_map.webp",
     "Assets/phandalin_town.webp",
     "Assets/phandalin_map.png",
     "z_Templates/Insert Monster (TTRPG Statblock).md",
-    "Monsters/goblin.md",
-    "Monsters/hobgoblin.md",
-    "z_Templates/Insert Encounter.md",
-    "Sessions/Session 12.md",
     "Assets",
-    "Sessions/Session 11.md",
-    "Untitled",
     "z_Templates",
     "Monsters/wraith.png",
     "Monsters/bugbear.png",
     "Monsters/doppelganger.png",
     "Monsters/goblin.png",
-    "Monsters",
-    "phandalin_map 1.png",
-    "Diary",
-    "Welcome.md",
-    "Rules and References",
-    "Sessions",
-    "Handouts",
-    "Characters"
+    "phandalin_map 1.png"
   ]
 }
