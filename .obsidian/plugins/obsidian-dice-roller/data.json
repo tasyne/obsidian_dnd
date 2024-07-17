@@ -12,8 +12,6 @@
   "signed": false,
   "displayLookupRoll": true,
   "formulas": {},
-  "persistResults": false,
-  "results": {},
   "defaultRoll": 1,
   "defaultFace": 100,
   "renderer": false,
@@ -76,5 +74,7 @@
   ],
   "showRenderNotice": true,
   "diceModTemplateFolders": {},
-  "replaceDiceModInLivePreview": true
+  "replaceDiceModInLivePreview": true,
+  "viewResults": [],
+  "version": "11.0.4"
 }

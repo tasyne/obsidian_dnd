@@ -1,8 +1,85 @@
 {
   "mapMarkers": [
     {
+      "id": "leaflet-map",
+      "lastAccessed": 1710898029491,
+      "markers": [
+        {
+          "id": "ID_4a492b9ae8fa",
+          "type": "default",
+          "loc": [
+            -0.9765625,
+            1.1015625
+          ],
+          "link": "Map (Phandalin)",
+          "layer": ".%2Fphandalin_map.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Phandalin Town Map",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_fb48685a6b98",
+          "type": "default",
+          "loc": [
+            -0.86273193359375,
+            1.4365234375
+          ],
+          "link": "Map (Wave Echo Cave)",
+          "layer": ".%2Fphandalin_map.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Wave Echo Cave Map",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "z_Templates/Insert Map (Leaflet).md",
+        "Diary/Map (Phandalin).md",
+        "Diary/Map (Wave Echo Cave).md"
+      ]
+    },
+    {
+      "id": "phandalin-town-map",
+      "lastAccessed": 1713054839797,
+      "markers": [
+        {
+          "id": "ID_6958cb5bcad9",
+          "type": "default",
+          "loc": [
+            -2.1796875,
+            3.51953125
+          ],
+          "layer": ".%2Fphandalin_town.webp",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.4505,
+            0.40028694404591103
+          ],
+          "description": "📌",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Maps/Map (Phandalin).md"
+      ]
+    },
+    {
       "id": "large-map",
-      "lastAccessed": 1710817295199,
+      "lastAccessed": 1713054841648,
       "markers": [
         {
           "id": "ID_d9d8a81aeb99",
@@ -131,43 +208,365 @@
       "overlays": [],
       "shapes": [],
       "files": [
-        "Diary/Map (Large).md"
+        "Maps/Map (Large).md"
       ]
     },
     {
-      "id": "leaflet-map",
-      "lastAccessed": 1710898029491,
+      "id": "wave-echo-cave-map",
+      "lastAccessed": 1721182408655,
       "markers": [
         {
-          "id": "ID_4a492b9ae8fa",
+          "id": "ID_cae89ae8e9ab",
           "type": "default",
           "loc": [
-            -0.9765625,
-            1.1015625
+            -1.8925323486328125,
+            0.357177734375
           ],
-          "link": "Map (Phandalin)",
-          "layer": ".%2Fphandalin_map.png",
+          "link": "1. Cave Entrance",
+          "layer": ".%2Fwave_echo_cave_map.webp",
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Phandalin Town Map",
+          "description": null,
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
         },
         {
-          "id": "ID_fb48685a6b98",
+          "id": "ID_898b7b0bb899",
           "type": "default",
           "loc": [
-            -0.86273193359375,
-            1.4365234375
+            -1.488189697265625,
+            0.53271484375
           ],
-          "link": "Map (Wave Echo Cave)",
-          "layer": ".%2Fphandalin_map.png",
+          "link": "2. Mine Tunnels",
+          "layer": ".%2Fwave_echo_cave_map.webp",
           "mutable": true,
           "command": false,
           "percent": null,
-          "description": "Wave Echo Cave Map",
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d8cab98bcbe8",
+          "type": "default",
+          "loc": [
+            -1.8798370361328125,
+            0.8777998737373738
+          ],
+          "link": "3. Old Entrance",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_d8aa9b3adb68",
+          "type": "default",
+          "loc": [
+            -2.093658447265625,
+            0.7360306186868687
+          ],
+          "link": "4. Old Guardroom",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_18fa7a6b4b38",
+          "type": "default",
+          "loc": [
+            -2.0741729736328125,
+            1.0594854797979798
+          ],
+          "link": "5. Assayers Office",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_98fac8e88998",
+          "type": "default",
+          "loc": [
+            -1.72265625,
+            1.3632536300505051
+          ],
+          "link": "8. Fungi Cavern",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_89b838c9099a",
+          "type": "default",
+          "loc": [
+            -1.55078125,
+            1.1523461174242424
+          ],
+          "link": "7. Ruined Storeroom",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_282b78dbba19",
+          "type": "default",
+          "loc": [
+            -1.5116729736328125,
+            0.8846358112373738
+          ],
+          "link": "6. South Barracks",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_0af87898ba7a",
+          "type": "default",
+          "loc": [
+            -1.230377197265625,
+            0.941155303030303
+          ],
+          "link": "9. Great Cavern",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_79e8b819eba8",
+          "type": "default",
+          "loc": [
+            -1.365142822265625,
+            1.6152556818181818
+          ],
+          "link": "14. Wizards Quarters",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_387a388b4a0a",
+          "type": "default",
+          "loc": [
+            -1.2382354736328125,
+            1.48338226010101
+          ],
+          "link": "13. Starry Cavern",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_99abcbc958ea",
+          "type": "default",
+          "loc": [
+            -1.03515625,
+            1.558581912878788
+          ],
+          "link": "15. Forge of Spells",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_7baab85b080b",
+          "type": "default",
+          "loc": [
+            -0.861328125,
+            1.1308633207070709
+          ],
+          "link": "12. Smelter Cavern",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_babbca0a98eb",
+          "type": "default",
+          "loc": [
+            -0.429595947265625,
+            1.3924921085858586
+          ],
+          "link": "16. Booming Cavern",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_58ea5ac858d9",
+          "type": "default",
+          "loc": [
+            -0.753814697265625,
+            0.5777099116161617
+          ],
+          "link": "11. North Barracks",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_f9b8aadbf88a",
+          "type": "default",
+          "loc": [
+            -0.747955322265625,
+            0.224051452020202
+          ],
+          "link": "10. Dark Pool",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bb6b28d93b4a",
+          "type": "default",
+          "loc": [
+            -0.453033447265625,
+            0.622649936868687
+          ],
+          "link": "18. Collapsed Cavern",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_3a38caaa4b6a",
+          "type": "default",
+          "loc": [
+            -0.204986572265625,
+            0.38231849747474755
+          ],
+          "link": "20. Priests Quarters",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_998b5948f98b",
+          "type": "default",
+          "loc": [
+            -0.279205322265625,
+            0.1712957702020202
+          ],
+          "link": "19. Temple of Dumathoin",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_dbdae9d998eb",
+          "type": "default",
+          "loc": [
+            -0.236328125,
+            0.8554671717171718
+          ],
+          "link": "17. Old Streambed",
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_88d8b86a0b48",
+          "type": "default",
+          "loc": [
+            -0.647216796875,
+            1.228515625
+          ],
+          "layer": ".%2Fwave_echo_cave_map.webp",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
           "minZoom": null,
           "maxZoom": null,
           "tooltip": "hover"
@@ -175,11 +574,7 @@
       ],
       "overlays": [],
       "shapes": [],
-      "files": [
-        "z_Templates/Insert Map (Leaflet).md",
-        "Diary/Map (Phandalin).md",
-        "Diary/Map (Wave Echo Cave).md"
-      ]
+      "files": []
     }
   ],
   "defaultMarker": {
@@ -212,7 +607,7 @@
   "mapViewEnabled": true,
   "mapViewParameters": {
     "darkMode": "truemarker",
-    "defaultZoom": "5",
+    "defaultZoom": "8",
     "distanceMultiplier": 1,
     "drawColor": "#3388ff",
     "geojson": [],
@@ -220,11 +615,11 @@
     "gpx": [],
     "gpxColor": "#3388ff",
     "height": "500px",
-    "image": "./phandalin_map.png",
+    "image": "./wave_echo_cave_map.webp",
     "imageOverlay": [],
     "isMapView": false,
     "layers": [
-      "./phandalin_map.png"
+      "./wave_echo_cave_map.webp"
     ],
     "linksFrom": [],
     "linksTo": [],
@@ -244,7 +639,7 @@
     "verbose": false,
     "zoomDelta": 1,
     "zoomFeatures": false,
-    "id": "leaflet-map",
+    "id": "wave-echo-cave-map",
     "lat": "50",
     "long": "50",
     "unit": "meters",

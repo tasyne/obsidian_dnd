@@ -8,5 +8,9 @@
   "obsidian-style-settings",
   "sample-plugin",
   "obsidian-meta-bind-plugin",
-  "js-engine"
+  "js-engine",
+  "smart-connections",
+  "dataview",
+  "obsidian-admonition",
+  "obsidian-view-mode-by-frontmatter"
 ]
